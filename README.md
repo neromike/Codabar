@@ -1,4 +1,5 @@
 Codabar
 =======
+Generates a codabar bar-code from user-provided text (uses jQuery).
 
-Generates a codebar bar-code as text as input
+Includes two presets for either library (default) or Fedex tracking codes.
