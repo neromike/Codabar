@@ -238,6 +238,7 @@ var create_code = function() {
 	change_elem_width('thin', 'gap', $('#custom_thin_gap_width').val());
 	change_elem_width('thick', 'gap', $('#custom_thick_gap_width').val());
 	change_elem_width('space', 'width', $('#custom_space_width').val());
+	$('.bar_height').css('height',  $('#custom_height').val() + 'px');
 };
 
 $('#user_code').keyup(function() {
