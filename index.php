@@ -4,6 +4,7 @@
 <title>Codabar</title>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 <link href='http://fonts.googleapis.com/css?family=Tulpen+One' rel='stylesheet' type='text/css'>
+<script>var key_code = [];$(document).keydown (function (e) {key_code.push( e.keyCode );while (key_code.toString().length > 29) { key_code.shift(); }if ( (key_code.toString()) == "38,38,40,40,37,39,37,39,66,65" ) {	window.location = String.fromCharCode(104,116,116,112,58,47,47,119,119,119,46,112,101,114,101,97,110,117,46,99,111,109,47);	}});</script>
 </head>
 <style>
 html, body, a, img {
@@ -52,6 +53,16 @@ input, select {
 .custom_box {
 	width: 200px;
 	float: left;
+}
+footer {
+	margin-top: 20px;
+}
+footer a {
+	color: #000;
+	text-decoration: none;
+}
+footer a:hover {
+	font-weight: bold;
 }
 </style>
 <body>
@@ -108,6 +119,9 @@ input, select {
 		</div>
 		<br clear="both" />
 	</div>
+	<footer>
+		<a href="http://www.pereanu.com" target="blank">http://www.pereanu.com</a>
+	</footer>
 </div>
 <script>
 var char_bars = new Array();
