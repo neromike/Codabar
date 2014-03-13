@@ -69,7 +69,7 @@ footer a:hover {
 <body>
 <div id="container">
 	<header>
-		Codabar Geneartor
+		Codabar Generator
 	</header>
 	<div id="code_container">
 		<select id="start_char">
